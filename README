@@ -1,0 +1,5 @@
+Installation:
+Simply drop LintYiiUnitTest.php into protected/tests/unit directory.
+
+Description:
+LintYiiUnit checks your Models, Views, Controllers, Components & Commands for php syntax errors.  
