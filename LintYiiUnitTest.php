@@ -41,7 +41,8 @@
         $this->assertTrue(strpos($results[0], $this->matchStringNoErrors) !== false, $this->outputErrorMsgPrefix . basename($component . ".php") . ":\n" . implode("\n", $results) );
       }
     }
-
+    
+    /*
     public function testBehaviorsForErrors()
     {
       $behaviors = $this->getClassList('behavior');
@@ -51,7 +52,8 @@
         $this->assertTrue(strpos($results[0], $this->matchStringNoErrors) !== false, $this->outputErrorMsgPrefix . basename($behavior . ".php") . ":\n" . implode("\n", $results) );
       }
     }
-
+    */
+    
     public function testCommandsForErrors()
     {
       $commands = $this->getClassList('command');
